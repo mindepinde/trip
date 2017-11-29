@@ -22,6 +22,10 @@ Route::prefix('admin')->group(function() {
 Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@show');
 Route::resource('posts', 'PostController');
-Route::get('/page1', 'HomeController@page')->name('first.page');
-Route::get('/page2', 'HomeController@page2')->name('second.page');
-Route::get('/page3', 'HomeController@page3')->name('third.page');
+Route::get('/world', 'HomeController@world')->name('world.page');
+Route::get('/europe', 'HomeController@europe')->name('europe.page');
+Route::get('/asia', 'HomeController@asia')->name('asia.page');
+Route::get('/americas', 'HomeController@americas')->name('americas.page');
+Route::get('/oceania', 'HomeController@oceania')->name('oceania.page');
+Route::get('/africa', 'HomeController@africa')->name('africa.page');
+Route::get('/links', 'HomeController@links')->name('links.page');

@@ -43,3 +43,12 @@ header.masthead {
       padding-bottom: 0; }
 
 }
+
+.item {
+    height: 800px;
+}
+.menu-item {
+    border: solid 1px black;
+    text-align: center;
+    min-height: 40vh;
+}

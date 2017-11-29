@@ -19,10 +19,13 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav text-center">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="{{ route('first.page') }}">Page 1</a></li>
-                <li><a href="{{route('second.page')}}">Page 2</a></li>
-                <li><a href="{{route('third.page')}}">Page 3</a></li>
+                <li><a href="{{route('world.page') }}">World</a></li>
+                <li><a href="{{route('europe.page') }}">Europe</a></li>
+                <li><a href="{{route('asia.page')}}">Asia</a></li>
+                <li><a href="{{route('americas.page')}}">Americas</a></li>
+                <li><a href="{{route('oceania.page')}}">Oceania</a></li>
+                <li><a href="{{route('africa.page')}}">Africa</a></li>
+                <li><a href="{{route('links.page')}}">Links</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->

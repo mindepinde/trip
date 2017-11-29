@@ -38,19 +38,39 @@ class HomeController extends Controller
 
     }
 
-    public function page()
+    public function world()
     {
-        return view('pages.page1');
+        return view('pages.world');
     }
 
-    public function page2()
+    public function europe()
     {
-        return view('pages.page2');
+        return view('pages.europe');
     }
 
-    public function page3()
+    public function asia()
     {
-        return view('pages.page3');
+        return view('pages.asia');
+    }
+
+    public function americas()
+    {
+        return view('pages.americas');
+    }
+
+    public function oceania()
+    {
+        return view('pages.oceania');
+    }
+
+    public function africa()
+    {
+        return view('pages.africa');
+    }
+    
+    public function links()
+    {
+        return view('pages.links');
     }
 
 }

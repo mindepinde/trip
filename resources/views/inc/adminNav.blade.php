@@ -22,6 +22,7 @@
 
                 <li><a href="{{ route('admin.dashboard')}}">Admin</a></li>
                 <li><a href="{{ route('posts.index')}}">Naujienos</a></li>
+                <li><a href="{{ route('posts.index')}}">Keliones</a></li>
                 <li><a href="#">Vartotojai</a></li>
                 <li><a href="#">Komentarai</a></li>
             </ul>
