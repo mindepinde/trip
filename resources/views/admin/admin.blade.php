@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+            <div class="panel panel-default text-center">
                 <div class="panel-heading">Admin Dashboard</div>
 
                     <div class="panel-body">
@@ -15,6 +15,9 @@
                         @endif
 
                         You are logged in as Admin!
+
+                    </div>
+                    <div class="panel-body">
 
                     </div>
             </div>

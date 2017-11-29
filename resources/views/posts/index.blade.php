@@ -1,5 +1,5 @@
 @extends('posts.master')
-
+@include('inc.adminNav')
 @section('content')
 
     <div class="row">

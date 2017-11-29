@@ -12,19 +12,20 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
 
         <!-- Navbar -->
-        @include('inc.adminNav')
-    
+        @include('inc.nav')
+
+        
 
 
-
-
-
+    <div class="container">
         <!-- Content -->
         @yield('content')
+
 
 
 

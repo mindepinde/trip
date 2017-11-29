@@ -22,3 +22,6 @@ Route::prefix('admin')->group(function() {
 Route::get('/home', 'HomeController@index');
 Route::get('/', 'HomeController@show');
 Route::resource('posts', 'PostController');
+Route::get('/page1', 'HomeController@page')->name('first.page');
+Route::get('/page2', 'HomeController@page2')->name('second.page');
+Route::get('/page3', 'HomeController@page3')->name('third.page');

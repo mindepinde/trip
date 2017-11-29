@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
         <div class="navbar-header">
 
@@ -18,15 +18,16 @@
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side Of Navbar -->
-            <ul class="nav navbar-nav text-center">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="{{ route('first.page') }}">Page 1</a></li>
-                <li><a href="{{route('second.page')}}">Page 2</a></li>
-                <li><a href="{{route('third.page')}}">Page 3</a></li>
+            <ul class="nav navbar-nav">
+
+                <li><a href="{{ route('admin.dashboard')}}">Admin</a></li>
+                <li><a href="{{ route('posts.index')}}">Naujienos</a></li>
+                <li><a href="#">Vartotojai</a></li>
+                <li><a href="#">Komentarai</a></li>
             </ul>
 
             <!-- Right Side Of Navbar -->
-            <ul class="nav navbar-nav navbar-right text-center">
+            <ul class="nav navbar-nav navbar-right">
                 <!-- Authentication Links -->
                 @guest
                     <li><a href="{{ route('login') }}">Login</a></li>
